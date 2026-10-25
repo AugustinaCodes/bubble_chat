@@ -1,4 +1,5 @@
 import { Hono } from "hono";
+import health from "./routes/health";
 
 const app = new Hono();
 
@@ -9,12 +10,7 @@ app.get("/", (c) => {
   });
 });
 
-app.get("/api/health", (c) => {
-  return c.json({
-    status: "ok",
-    message: "Bubble Chat backend is running!",
-  });
-});
+app.route("/api/health", health);
 
 export default {
   port: 3000,
