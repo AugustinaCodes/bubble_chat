@@ -1,0 +1,238 @@
+{
+  "?xml": "",
+  "channel": {
+    "title": "한국어 기초사전 개발 지원(Open API) - 사전 검색",
+    "link": "https://krdict.korean.go.kr",
+    "description": "한국어 기초사전 개발 지원(Open API) - 사전 검색 결과",
+    "lastBuildDate": 20261103231456,
+    "total": 55,
+    "start": 1,
+    "num": 10,
+    "item": [
+      {
+        "target_code": 32750,
+        "word": "나무",
+        "sup_no": 0,
+        "pronunciation": "나무",
+        "word_grade": "초급",
+        "pos": "명사",
+        "link": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=32750",
+        "sense": [
+          {
+            "sense_order": 1,
+            "definition": "단단한 줄기에 가지와 잎이 달린, 여러 해 동안 자라는 식물.",
+            "translation": {
+              "trans_lang": "영어",
+              "trans_word": "tree",
+              "trans_dfn": "A plant with a hard stem, branches and leaves."
+            }
+          },
+          {
+            "sense_order": 2,
+            "definition": "집이나 가구 등을 만드는 데 사용하는 재목.",
+            "translation": {
+              "trans_lang": "영어",
+              "trans_word": "wood",
+              "trans_dfn": "The material used to build a house or to make furniture."
+            }
+          },
+          {
+            "sense_order": 3,
+            "definition": "불을 때기 위해 베어 놓은 나무의 줄기나 가지.",
+            "translation": {
+              "trans_lang": "영어",
+              "trans_word": "timber; log",
+              "trans_dfn": "The trunk or branches of a tree cut to be used as firewood."
+            }
+          }
+        ]
+      },
+      {
+        "target_code": 38842,
+        "word": "나무라다",
+        "sup_no": 0,
+        "pronunciation": "나무라다",
+        "word_grade": "중급",
+        "pos": "동사",
+        "link": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=38842",
+        "sense": [
+          {
+            "sense_order": 1,
+            "definition": "잘못을 꾸짖어 잘 알아듣게 말하다.",
+            "translation": {
+              "trans_lang": "영어",
+              "trans_word": "scold; rebuke",
+              "trans_dfn": "To scold someone for his/her fault in a way that he/she will understand well."
+            }
+          },
+          {
+            "sense_order": 2,
+            "definition": "사람의 말이나 행동, 성격에서 잘못된 점이나 부족한 점을 지적하여 말하다.",
+            "translation": {
+              "trans_lang": "영어",
+              "trans_word": "criticize",
+              "trans_dfn": "To point out and let one know of one's mistake or the weakness of one's words, actions, or personality."
+            }
+          }
+        ]
+      },
+      {
+        "target_code": 17918,
+        "word": "나무배",
+        "sup_no": 0,
+        "pronunciation": "나무배",
+        "word_grade": "중급",
+        "pos": "명사",
+        "link": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=17918",
+        "sense": {
+          "sense_order": 1,
+          "definition": "나무로 만든 배.",
+          "translation": {
+            "trans_lang": "영어",
+            "trans_word": "wooden ship",
+            "trans_dfn": "A ship made of wood."
+          }
+        }
+      },
+      {
+        "target_code": 17919,
+        "word": "나무뿌리",
+        "sup_no": 0,
+        "pronunciation": "나무뿌리",
+        "word_grade": "중급",
+        "pos": "명사",
+        "link": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=17919",
+        "sense": {
+          "sense_order": 1,
+          "definition": "나무의 뿌리.",
+          "translation": {
+            "trans_lang": "영어",
+            "trans_word": "root",
+            "trans_dfn": "The root of a tree."
+          }
+        }
+      },
+      {
+        "target_code": 17920,
+        "word": "나무숲",
+        "sup_no": 0,
+        "pronunciation": "나무숩",
+        "word_grade": "중급",
+        "pos": "명사",
+        "link": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=17920",
+        "sense": {
+          "sense_order": 1,
+          "definition": "잘 자란 나무가 많은 숲.",
+          "translation": {
+            "trans_lang": "영어",
+            "trans_word": "woods; forest",
+            "trans_dfn": "A dense forest with many tall trees."
+          }
+        }
+      },
+      {
+        "target_code": 17926,
+        "word": "나무젓가락",
+        "sup_no": 0,
+        "pronunciation": "나무저까락/나무젇까락",
+        "word_grade": "중급",
+        "pos": "명사",
+        "link": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=17926",
+        "sense": {
+          "sense_order": 1,
+          "definition": "나무로 만든 젓가락.",
+          "translation": {
+            "trans_lang": "영어",
+            "trans_word": "wooden chopsticks",
+            "trans_dfn": "Chopsticks made of wood."
+          }
+        }
+      },
+      {
+        "target_code": 17927,
+        "word": "나무줄기",
+        "sup_no": 0,
+        "pronunciation": "나무줄기",
+        "word_grade": "중급",
+        "pos": "명사",
+        "link": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=17927",
+        "sense": {
+          "sense_order": 1,
+          "definition": "아래에는 뿌리가 있고 위로는 가지와 연결된 나무의 한 부분.",
+          "translation": {
+            "trans_lang": "영어",
+            "trans_word": "trunk of a tree",
+            "trans_dfn": "A part of a tree, above the root and below the branches."
+          }
+        }
+      },
+      {
+        "target_code": 17928,
+        "word": "나무총",
+        "sup_no": 0,
+        "origin": "나무銃",
+        "pronunciation": "나무총",
+        "word_grade": "중급",
+        "pos": "명사",
+        "link": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=17928",
+        "sense": {
+          "sense_order": 1,
+          "definition": "나무로 만든 총.",
+          "translation": {
+            "trans_lang": "영어",
+            "trans_word": "wooden gun",
+            "trans_dfn": "A gun made of wood."
+          }
+        }
+      },
+      {
+        "target_code": 17929,
+        "word": "나무토막",
+        "sup_no": 0,
+        "pronunciation": "나무토막",
+        "word_grade": "중급",
+        "pos": "명사",
+        "link": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=17929",
+        "sense": [
+          {
+            "sense_order": 1,
+            "definition": "나무가 잘리거나 부러져 짤막하게 된 부분.",
+            "translation": {
+              "trans_lang": "영어",
+              "trans_word": "piece of wood; block of wood; chunk of wood",
+              "trans_dfn": "A short piece of chopped or broken wood."
+            }
+          },
+          {
+            "sense_order": 2,
+            "definition": "(비유적으로) 생명체가 아닌 것처럼 감정이 없거나 몸이 굳은 것.",
+            "translation": {
+              "trans_lang": "영어",
+              "trans_word": "stone; being without feeling",
+              "trans_dfn": "(figurative) A state in which one shows an absence of emotions like an inanimate object, or his/her body becomes stiff. "
+            }
+          }
+        ]
+      },
+      {
+        "target_code": 17930,
+        "word": "나무통",
+        "sup_no": 0,
+        "origin": "나무桶",
+        "pronunciation": "나무통",
+        "word_grade": "중급",
+        "pos": "명사",
+        "link": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=17930",
+        "sense": {
+          "sense_order": 1,
+          "definition": "나무로 만든 통.",
+          "translation": {
+            "trans_lang": "영어",
+            "trans_word": "wooden pail",
+            "trans_dfn": "A pail made of wood."
+          }
+        }
+      }
+    ]
+  }
+}

@@ -5,7 +5,7 @@ const dictionary = new Hono();
 const parser = new XMLParser();
 
 dictionary.get("/", async (c) => {
-  const query = c.req.query("query");
+  const query = c.req.query("query")?.trim();
 
   // Checking if the query was provided
   if (!query) {
@@ -53,7 +53,42 @@ dictionary.get("/", async (c) => {
     // Convert XML into JSON
     const jsonData = parser.parse(xmlData);
 
-    return c.json(jsonData);
+    const channel = jsonData.channel;
+
+    if (!channel) {
+      return c.json({ error: "Invalid dictionary response" }, 502);
+    }
+
+    // The main data we are interested in:
+    // const word = channel.item[0].word;
+    const {
+      item: [
+        {
+          word,
+          pronunciation,
+          sense: [
+            {
+              definition,
+              translation: { trans_word, trans_dfn },
+            },
+          ],
+        },
+      ],
+    } = channel;
+
+    const newObj = {
+      searchedWord: word,
+      pronunciation: pronunciation,
+      wordDefinition: definition,
+      englishTranslation: trans_word,
+      translationDefinition: trans_dfn,
+    };
+
+    console.log(word, pronunciation, definition, trans_word, trans_dfn);
+    console.log(newObj);
+
+    //return c.json(jsonData);
+    return c.json(newObj);
   } catch (error) {
     console.error("Dictionary error:", error);
     return c.json(
